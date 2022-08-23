@@ -352,18 +352,18 @@ We can develop an SEO-friendly content management system to publish blogs, artic
             <h4 class="center blue-grey-text darken-1"><b>Contact-Us</b></h4>
           </div>
         </div>
-        <form action="mailto:mitrokarts@gmail.com" method="post" class="col s12">
+        <form action="mailto:mitrokarts@gmail.com" method="post" enctype="text/plain" class="col s12">
           <div class="row">
             <div class="input-field col s12 m6">
               <i class="material-icons prefix">account_circle</i>
-              <input id="icon_prefix" type="text" class="validate">
+              <input id="icon_prefix" type="text" name="subject" class="validate">
               <label for="icon_prefix">Name</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
               <i class="material-icons prefix">mode_edit</i>
-              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+              <textarea id="icon_prefix2" name="message" class="materialize-textarea"></textarea>
               <label for="icon_prefix2">Message</label>
             </div>
           </div>
