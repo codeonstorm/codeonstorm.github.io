@@ -2,7 +2,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray     =   ["Hello! My self ANKIT KUMAR and i am a PHP and PYTHON developer, I have 2 year of working experiance"];
+const textArray     =   ["Hello! My self ANKIT KUMAR and i am a PHP and PYTHON developer, I have 2 year of working experiance in web development field"];
 const typingDelay   =   200;
 const erasingDelay  =   100;
 const newTextDelay  =   2000;
